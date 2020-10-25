@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>crudjs</title>
+	<!--bootstrap cdn-->
+	<link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+</head>
+<body>
+	<!--navigation-->
+	<nav class="navbar navbar-light bg-light">
+		<a href="#" class="navbar-brand">
+			Product App
+		</a>
+	</nav>
+
+	<div class="container">
+		<!--aplication-->
+		<div id="App" class="row pt-5">
+			<div class="col md-4">
+				<div class="card">
+					<div class="card-header">
+						<h4>Add a Product</h4>
+					</div>
+					<form id="product-form" class="card-body">
+						<div class="form-group">
+							<input type="text" id="name" placeholder="product name" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="number" step="0.01" id="price" placeholder="product price" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="number" id="year" min="2000" max="2030" value="2020" placeholder="product year" class="form-control">
+						</div>
+						
+							<input type="submit" value="save" class="btn btn-primary btn-block">
+						
+					</form>
+				</div>
+				
+			</div>
+			<div id="product-list" class="col md-8">
+	
+			</div>
+			
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
