@@ -16,7 +16,7 @@ El presente proyecto , tiene como objetivo desarrollar un pequeño aplicativo we
 ## Demo 💿️
 ![label image](https://github.com/junix7/ProductApp/blob/master/images/preview.png)
 
-Puedes ver un live demo en la siguiente dirección [Demo](https://junix7.github.io/ProductApp/)
+Puedes ver un live demo en la siguiente dirección [Demo](https://junix7.github.io/ProductApp/).
 
 ## Construido con 🛠️
 - HTML
